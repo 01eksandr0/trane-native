@@ -9,10 +9,8 @@ export const RegistrationScreen = () => {
   const [login, setLogin] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const navigation = useNavigation();
-  const handleSubmit = () => {
-    navigation.navigate("Login");
-  };
+
+  const handleSubmit = () => {};
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>

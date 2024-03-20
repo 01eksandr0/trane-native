@@ -3,7 +3,6 @@ import { Button, Text, View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 export const PostsScreen = () => {
-  const navigation = useNavigation();
   return (
     <View>
       <Text>
